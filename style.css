@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+    font-family: 'poppins', 'mukta', sans-serif;
 }
 body{
     background-color: #D1D5D8;
