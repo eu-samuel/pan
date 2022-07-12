@@ -166,7 +166,7 @@ transition: 0.5ms;
   }
   .nav-list li a:hover{
 color: rgb(99, 96, 96);
-transition: 0.4ms;
+transition: 0.2ms;
   }
   
   .logo{
