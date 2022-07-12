@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', 'mukta', sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 body{
     background-color: #D1D5D8;
@@ -121,7 +121,7 @@ transition: 0.5ms;
 .submit-2 a:hover{
 color: white;
 background: rgb(39, 37, 37);
-transition: 0.5ms;
+transition: 0.3ms;
 }
 
 
@@ -136,7 +136,7 @@ transition: 0.5ms;
     margin-left: 1em;
   }
 
-.nav {
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -166,7 +166,7 @@ transition: 0.5ms;
   }
   .nav-list li a:hover{
 color: rgb(99, 96, 96);
-transition: 0.2ms;
+transition: 0.3ms;
   }
   
   .logo{
