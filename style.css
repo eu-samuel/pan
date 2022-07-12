@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body{
 }
 /*Container Section*/
 .container{
-    width: 450px;
+    width: 400px;
     background-color: rgb(22, 19, 19);
     border-radius: 50px 50px 50px 50px;
     padding: 20px 50px;
@@ -29,6 +29,7 @@ body{
     text-align: center;
     padding-bottom: 1em;
     color: rgb(251, 246, 246);
+    font-family: 'Mutka', sans-serif;
     border-bottom: 1px solid;
     font-size: 2rem;
 }
@@ -124,22 +125,69 @@ transition: 0.5ms;
 }
 
 
-/*Social webs Section*/
+/*navbar Section*/
 
+.nav-img {    
+    width: 70em;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 3px;
+    margin-left: 1em;
+  }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    background: black;
+    height: 6vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-right: 20px;
+  }
+  
+  .nav-list li {
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-left: 32px;
+    margin-right: 1px;
+     
+  }
+  .nav-list li a{
+    text-decoration: none;
+    color: white;
+  }
+  .nav-list li a:hover{
+color: rgb(99, 96, 96);
+transition: 0.4ms;
+  }
+  
+  .logo{
+    text-decoration: none;
+    color: white;
+  }
 
     /*Register*/
     #register-container p{
-        margin-bottom: none;
-        margin-top: 10px;
+        margin-bottom: 2px;
+        margin-top: -2px;
         text-align: center;
         color: white;
+        
     }
     #register-container a{
         text-decoration: none;
         color: white;
         font-size: medium;
         text-align: center;
+        
     }
    #register-container a:hover{
         color:  #87969e;
