@@ -141,7 +141,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, Helvetica, Arial, sans-serif;
-    background: black;
+    background: #000;
     height: 6vh;
 }
 
